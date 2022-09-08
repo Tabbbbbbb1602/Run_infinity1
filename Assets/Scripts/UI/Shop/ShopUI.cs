@@ -33,7 +33,6 @@ public class ShopUI : MonoBehaviour
 
     private void Awake()
     {
-
         //thuc hien lang nghe su kien
         PlayerData.instance.onUpdateMoney += updateMoney;
         PlayerData.instance.onupdateCoin += updateCoin;

@@ -25,7 +25,7 @@ public struct HighscoreEntry : System.IComparable<HighscoreEntry>
 /// Save data for the game. This is stored locally in this case, but a "better" way to do it would be to store it on a server
 /// somewhere to avoid player tampering with it. Here potentially a player could modify the binary file to add premium currency.
 /// </summary>
-public class PlayerData
+public class PlayerData : MonoBehaviour
 {
     static protected PlayerData m_Instance;
     static public PlayerData instance { get { return m_Instance; } }
